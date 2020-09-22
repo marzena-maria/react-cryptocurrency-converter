@@ -1,0 +1,12 @@
+.convert-button {
+    padding: 20px;
+}
+
+
+.button {
+    padding: 10px 15px;
+    background-color: #D7C49EFF;
+    color: #343148FF;
+    border-style: none;
+    letter-spacing: 2px;
+}
