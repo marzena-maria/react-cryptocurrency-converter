@@ -1,19 +1,18 @@
 import React from 'react';
 import './ConvertButton.css';
 
-const ConvertButton = () => {
+const ConvertButton = (props) => {
 
 
 
     return (
         <div className='convert-button'>
-        <button
-            className='button'
-            //onClick={() => {}}
-        >
-        CONVERT
-        </button>
-        <p>R E S U L T</p>
+            <button
+                className='button'
+                onClick={event => {props.onClick(event)}}
+            >
+            CONVERT
+            </button>
         </div>
     )
 }

@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React from 'react';
 import './AmountInput.css';
 
 const AmountInput = (props) => {
